@@ -1,3 +1,4 @@
+import 'package:app/pages/login.dart';
 import 'package:app/views/botNavPage.dart';
 import 'package:app/views/homepage.dart';
 import 'package:app/views/stackView.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: BottomNavPage(),
+      home: LoginPage(),
     );
   }
 }
