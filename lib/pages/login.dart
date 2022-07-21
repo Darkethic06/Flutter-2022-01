@@ -103,6 +103,3 @@ class _LoginPageState extends State<LoginPage> {
     );
   }
 }
-
-// data model : quiz(bool) 
-// data model : mcq
